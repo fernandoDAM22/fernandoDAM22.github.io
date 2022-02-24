@@ -20,6 +20,7 @@ main{
   flex-wrap: wrap;
   flex-direction: row;
   z-index: -1;
+  color: black;
 }
 .lenguaje{
   display: flex;

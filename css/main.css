@@ -6,15 +6,29 @@
 }
 body{
     /* background-color: hsla(187, 84%, 53%, .8); */
-    background-color: hsla(215, 100%, 50%, .8);
-    font-size: 10px;
+   /* background-color: hsla(215, 100%, 50%, .8);*/
+   height: 100%;
+   width: 100%;
+   font-size: 10px;
+}
+.FondoIndex{
+    background-image: url(../img/fondoCodigoProgramacion.png);
+    backdrop-filter: blur(3px);
+    height: 100%;
+    width: 100%;
+}
+#tituloPrincipal{
+    background-color: white;
 }
 .titulos{
     font-size: 7em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
-    
+    border-radius: 10px;
+    margin-top: .5em;  
+    color: black;
 }
+
 main{
     display: flex;
     flex-wrap: wrap;
@@ -46,10 +60,14 @@ header{
     width: 95%;
 }
 .cabeceraMain{
-    margin-top: 2em;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .boton{
-    border: .7em solid hsla(0, 0%, 0%, 1);;
+    position: relative;
+    border: .5em solid hsla(0, 0%, 0%, 1);
     height: 100px;
     width: 200px;
     margin: 20px;
@@ -57,9 +75,45 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: width .2s, height .2s, transform .2s;
+    border-radius: 15%;
+    text-transform: uppercase;
+    animation-duration: .3s;
 }
+#rojo{
+    border: .4em solid hsla(3, 100%, 60%, 1);
+}
+#rojo > p{
+    color: hsla(3, 100%, 60%, 1);
+}
+#azul{
+    border: .4em solid hsla(189, 100%, 55%, 1);
+}
+#azul > p{
+    color: hsla(189, 100%, 55%, 1);
+}
+#verde{
+    border: .4em solid hsla(142, 100%, 60%, 1);
+}
+#verde > p{
+    color: hsla(142, 100%, 60%, 1);
+}
+#violeta{
+    border: .4em solid hsla(280, 81%, 68%, 1);
+}
+#violeta > p{
+    color: hsla(280, 81%, 68%, 1);
+}
+/* #rojo:hover{
+    background-color: red;
+}
+#rojo:hover > p{
+    color: white;
+} */
+
 .boton:hover{
-    background-color: hsla(0, 0%, 0%, 1);
+    cursor: pointer;
+    transform: scale(1.2);
 }
 .boton:hover > p{
     color: hsla(0, 0%, 100%, 1);
@@ -69,7 +123,7 @@ a{
 }
 a > .boton > p{
     color: hsla(0, 0%, 0%, 1);
-    font-size: 30px;
+    font-size: 2.5em;
     font-weight: 900;
 }
 .menu{
