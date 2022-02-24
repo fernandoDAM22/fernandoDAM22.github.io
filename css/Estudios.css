@@ -1,0 +1,47 @@
+body{
+    background-color: hsla(0, 0%, 100%, 1);
+    background-image: url(../img/paisaje.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedorInformacion{
+    height: 35em;
+    width: 25em;
+    background-color: hsla(0, 0%, 100%, .2);
+    border: .5px solid hsla(0, 0%, 100%, .5);
+    backdrop-filter: blur(20px);
+    margin: 3em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+
+}
+.tituloEstudio{
+    margin: .7em;
+    font-size: 3em;
+}
+.fecha{
+    font-style: italic;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+.tituloInformacion{
+    font-size: 2.5em;
+    font-weight: 900;
+    margin: .5em;
+    text-decoration: underline;
+}
+.textoInformacion{
+    font-size: 2em;
+}

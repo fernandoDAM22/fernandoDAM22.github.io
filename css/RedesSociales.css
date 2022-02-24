@@ -1,0 +1,43 @@
+body{
+    background-color: hsla(0, 0%, 100%, 1);
+    background-image: url(../img/paisaje.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenedorRedes{
+    height: 5em;
+    width: 70vw;
+    border: 0.5px solid hsla(0, 0%, 100%, .5);
+    margin: 1.5em;
+    border-radius: 4em;
+    color:hsla(0, 0%, 100%, .3);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    position: relative;
+}
+p{
+    font-size: 2em;
+    z-index: -1;
+}
+.contenedorRedes:hover .icono{
+    height: 5em;
+    width: 5em;
+    z-index: -1;
+}
+.icono{
+    height: 3em;
+    width: 3em;
+    background-color: white;
+    z-index: -1;
+}

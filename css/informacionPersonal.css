@@ -1,0 +1,79 @@
+body{
+    background-color: hsla(0, 0%, 100%, 1);
+    background-image: url(../img/paisaje.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedorInformacion{
+    height: 30em;
+    width: 20em;
+    background-color: hsla(0, 0%, 100%, .3);
+    border: .5px solid hsla(0, 0%, 100%, .5);
+    margin: 2em;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: -1;
+}
+.Iconoedad{
+    font-size: 5em;
+    margin-bottom: .8em;
+    margin-top: .8em;
+}
+.textoEdad{
+    font-size: 10em;
+    font-weight: 900;
+}
+.libro{
+    font-size: 5em;
+    margin: .8em;
+}
+.contenedorInformacion ul{
+    margin: 2em;
+}
+.contenedorInformacion ul li{
+    margin: .7em;
+    font-size: 2em;
+    font-weight: 900;
+    z-index: -1;
+}
+.IconoNombre{
+    font-size: 4.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.textoNombre{
+    font-size: 2em;
+    margin-top: 1em;
+    font-weight: 900;
+    font-size: 4em;
+}
+.iconoTelefono{
+    font-size: 4em;
+    margin: 1em;
+}
+.Telefono{
+    margin-top: 3.5em;
+}
+.sobre{
+    font-size: 4em;
+    margin: 1em;
+}
+.correo{
+    font-size: 2em;
+}
+.fotoCorreo{
+    width: 18em;
+    margin-top: 4em;
+}
+
