@@ -1,12 +1,9 @@
-body{
-    background-color: hsla(0, 0%, 100%, 1);
+.FondoPaginas{
     background-image: url(../img/paisaje.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-y;
     font-size: 10px;
 }
-main{
+.main{
     display: flex;
     justify-content: center;
     align-items: center;

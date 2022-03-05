@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303952;
+    flex-direction: column;
+}
+.container{
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+}
+.nombre-correo{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text{
+    margin-top: 5em;
+    height: 3em;
+    width: 20em;
+}
+#email{
+    margin-top: 5em;
+    margin-left: 2em;
+    height: 3em;
+    width: 20em;
+}
+.mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#asunto{
+    height: 20em;
+    width: 50em;
+    margin-top: 3em;
+}
+.cuadro-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#boton{
+    height: 4em;
+    width: 8em;
+    margin-top: 2em;
+    border-radius: 1em;
+    background-color: #0be881;
+}
+.TituloContacto{
+    font-size: 7em;
+    font-weight: 900;
+    color: white;
+}
