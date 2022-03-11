@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,13 +16,16 @@
 <body>
     <h1 class="TituloContacto">Contacto</h1>
     <div class="container">
+        <a href="../index.html">
+            <img src="../img/house-solid.svg" alt="" class="IconoHome">
+        </a>
         <form action=""></form>
             <div class="nombre-correo">
-                <input type="text" name="text" id="text" placeholder="nombre">
-                <input type="email" name="email" id="email" placeholder="email">
+                <input type="text" name="text" id="text" placeholder="nombre"  pattern="[a-zA-Z]">
+                <input type="email" name="email" id="email" placeholder="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
             </div>
             <div class="mensaje">
-                <input type="text-area" name="asunto" id="asunto" placeholder="asunto">
+                <input type="text-area" name="asunto" id="asunto" placeholder="asunto" required>
             </div>
             <div class="cuadro-boton">
                 <input type="button" value="Enviar" id="boton" onclick="alerta()">

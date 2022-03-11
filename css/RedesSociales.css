@@ -2,7 +2,7 @@ body{
     background-color: hsla(0, 0%, 100%, 1);
     background-image: url(../img/paisaje.jpg);
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     font-size: 10px;
 }

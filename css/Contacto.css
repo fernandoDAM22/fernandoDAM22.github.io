@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #303952;
+    background-color: hsla(224, 41%, 25%, 1);
     flex-direction: column;
 }
 .container{
@@ -49,10 +49,31 @@ body{
     width: 8em;
     margin-top: 2em;
     border-radius: 1em;
-    background-color: #0be881;
+    background-color: hsla(152, 95%, 48%, 1);
 }
 .TituloContacto{
     font-size: 7em;
     font-weight: 900;
     color: white;
+}
+.IconoHome{
+    height: 40px;
+    width: 40px;
+}
+a{
+    height: 20px;
+    width: 20px;
+}
+@media (max-width: 380px){
+    #text{
+        width: 100px;
+    }
+    #email{
+        width: 100px;
+    }
+}
+@media (max-width: 300px){
+    .TituloContacto{
+        font-size: 5em;
+    }
 }

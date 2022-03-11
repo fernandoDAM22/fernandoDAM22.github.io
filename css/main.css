@@ -38,6 +38,7 @@ main{
     align-items: center;
 }
 
+
 header{
     display: flex;
     justify-content: center;
@@ -45,12 +46,12 @@ header{
     margin-bottom: 2em;
 }
 .mainIndex{
-    margin-top: 9em;
     display: flex;
     flex-direction: column;
+    height: 80%;
+    padding: 0;
 }
 .navegacion{
-    margin-top: 6%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,12 +115,6 @@ header{
 #amarillo > p{
     color: hsla(62, 65%, 66%, 1);
 }
-/* #rojo:hover{
-    background-color: red;
-}
-#rojo:hover > p{
-    color: white;
-} */
 
 .boton:hover{
     cursor: pointer;
@@ -136,6 +131,23 @@ a > .boton > p{
     font-size: 2.5em;
     font-weight: 900;
 }
+.PieRedes{
+    height: 10vw;
+    width: 100%;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+    background-color: #0082e6;
+    position: sticky;
+}
+.PieRedes a img{
+    height: 4em;
+    width: 4em;
+    margin-left: 8em;
+}
+
 .menu{
     background-color: hsla(0, 0%, 100%, .1);
     height: 80px;
@@ -205,7 +217,7 @@ label img{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: #2c3e50;
+        background-color: hsla(210, 45%, 24%, 1);
         top: 80px;
         text-align: center;
         left: -100%;
@@ -215,7 +227,7 @@ label img{
         display: block;
     }
     .menu ul li a{
-        font-size: 20px;
+        font-size: 2em;
         margin: 50px 0;
     }
     a:hover,a:active{
@@ -228,7 +240,7 @@ label img{
 }
 @media (max-width: 1044px){
     .navegacion{
-        margin-top: 200px;
+        /* margin-top: 100px; */
     }
 }
 @media (max-width: 720px){
@@ -236,22 +248,40 @@ label img{
         font-size: 4em;
     }
 }
+@media (max-width: 647px){
+    .PieRedes a img{
+        margin-left: 6em;
+    }
+}
+@media (max-width: 550px){
+    .PieRedes a img{
+        margin-left: 4em;
+    }
+}
 @media (max-width: 534px){
     .titulos{
-        font-size: 30px;
+        font-size: 3em;
     }
     .boton{
-        height: 50px;
-        width: 100px;
+        height: 5em;
+        width: 10em;
     }
      a .boton p{
         font-size: 1.3em;
     }
 }
+@media (max-width: 421px){
+    .PieRedes a img{
+        margin-left: 1em;
+        height: 3em;
+        width: 3em;
+    }
+}
+
 
 @media (max-width: 324px){
     .navegacion{
-        margin-top: 16em;
+        /* margin-top: 16em; */
     }
     
 }
@@ -263,9 +293,22 @@ label img{
 }
 @media (max-width: 311px){
     .navegacion{
-        margin-top: 25em;
+        /* margin-top: 25em; */
     }
     
+}
+@media (max-width: 276px){
+    .titulos{
+        font-size: 2em;
+    }
+    
+}
+@media (max-width: 210px){
+    .PieRedes a img{
+        margin-left: 1em;
+        height: 2em;
+        width: 2em;
+    }
 }
 
 
