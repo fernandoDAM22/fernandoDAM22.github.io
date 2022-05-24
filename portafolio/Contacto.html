@@ -7,11 +7,7 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/Contacto.css">
-    <script>
-        function alerta() {
-          alert("Mensaje enviado");
-        }
-    </script>
+    <script src="../js/formulario.js"></script>
 </head>
 <body>
     <h1 class="TituloContacto">Contacto</h1>
@@ -21,15 +17,18 @@
         </a>
         <form action=""></form>
             <div class="nombre-correo">
-                <input type="text" name="text" id="text" placeholder="nombre"  pattern="[a-zA-Z]">
+                <input type="text" name="text" id="text" placeholder="nombre"  pattern="[a-zA-Z]" required>
                 <input type="email" name="email" id="email" placeholder="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
             </div>
             <div class="mensaje">
                 <input type="text-area" name="asunto" id="asunto" placeholder="asunto" required>
             </div>
             <div class="cuadro-boton">
-                <input type="button" value="Enviar" id="boton" onclick="alerta()">
-            </div>  
+                <input type="button" value="Enviar" id="boton" onclick="datos()">
+            </div> 
+            <div class="confirmacion" id="dialogo_confirmacion">
+
+            </div> 
     </div>
 </body>
 </html>

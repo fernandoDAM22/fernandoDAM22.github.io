@@ -1,0 +1,27 @@
+body{
+    background-color: hsl(144, 77%, 49%);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-size: 10px;
+}
+.imagenes{
+    margin: 3em 2em;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes img{
+    height: 330px;
+    width: 330px;
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+.botonGaleria{
+    height: 30px;
+    width: 80px;
+    background-color: hsl(6, 77%, 57%);
+}

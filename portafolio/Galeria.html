@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/galeria.css">
+    <script src="../js/galeria.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="titulos">Galeria</h1>
+    </header>
+    <nav class="menu">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <img src="../img/bars-solid.svg" alt="">
+        </label>
+        <label class="logo">Fernando</label>
+        <ul>
+            <li><a class="active" href="../index.html">Home</a></li>
+            <li><a class="active" href="./InformacionPersonal.html">Informacion Personal</a></li>
+            <li><a class="active" href="./Estudios.html">Estudios</a></li>
+            <li><a class="active" href="./Habilidades.html">Habilidades</a></li>
+            <li><a class="active" href="./Galeria.html">Galeria</a></li>
+        </ul> 
+    </nav>
+    <div class="imagenes">
+        <img src="../img/foto1.jpg" id="imagen">
+    </div>
+    <div class="botones">
+            <input type="button" value="<<<" class="botonGaleria" onclick="avanzar()">
+            <input type="button" value=">>>" class="botonGaleria" onclick="retroceder()">
+    </div>
+    
+</body>
+</html>

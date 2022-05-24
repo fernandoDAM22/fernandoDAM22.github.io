@@ -140,12 +140,16 @@ a > .boton > p{
     align-items: center;
     justify-content: center;
     background-color: #0082e6;
-    position: sticky;
+    position: relative;
 }
 .PieRedes a img{
     height: 4em;
     width: 4em;
     margin-left: 8em;
+    transition: .3s;
+}
+.PieRedes a img:hover{
+   transform: scale(1.2);
 }
 
 .menu{
@@ -238,11 +242,7 @@ label img{
         left: 0;
     }
 }
-@media (max-width: 1044px){
-    .navegacion{
-        /* margin-top: 100px; */
-    }
-}
+
 @media (max-width: 720px){
     .titulos{
         font-size: 4em;
@@ -279,21 +279,10 @@ label img{
 }
 
 
-@media (max-width: 324px){
-    .navegacion{
-        /* margin-top: 16em; */
-    }
-    
-}
+
 @media (max-width: 354px){
     .logo{
         display: none;
-    }
-    
-}
-@media (max-width: 311px){
-    .navegacion{
-        /* margin-top: 25em; */
     }
     
 }
@@ -310,8 +299,3 @@ label img{
         width: 2em;
     }
 }
-
-
-
-
-

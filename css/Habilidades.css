@@ -12,6 +12,14 @@ main{
    justify-content: center;
    align-items: center;
 }
+.Titulo{
+  font-size: 6em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+  border-radius: 10px;
+  margin-top: .5em;  
+  color: black;
+}
 .habilidad{
   display: flex;
   width: 100%;
@@ -21,6 +29,9 @@ main{
   flex-direction: row;
   z-index: -1;
   color: black;
+}
+.habilidad p{
+  background-color: white;
 }
 .lenguaje{
   display: flex;
@@ -56,8 +67,6 @@ main{
     background-color: hsla(0, 0%, 80%, 1);   
     position: relative;
   }
-  
-  /**** GRADIENTS ****/
   .azul span {
     background-color: hsla(191, 77%, 55%, 1);   
   }
